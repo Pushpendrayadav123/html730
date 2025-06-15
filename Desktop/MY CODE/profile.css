@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  /* border: 2px solid black; */
+  border-radius: 2px;
+  margin: 5px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: end;
+}
+
+ul > li {
+  display: flex;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+a {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+a:hover{
+  color: aqua;
+}
+section {
+  max-width: 1280px;
+  margin: auto;
+}
+#banner {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color:  #00c6ff;
+  border-radius: 10px 0px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: max-content;
+  color: black;
+}
+button>a{
+  color: black;
+}
+#icon {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.leftdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30;
+}
+.leftdiv > h4 {
+  font-size: 40px;
+}
+.leftdiv > p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.rightdiv > img {
+  background-color: aqua;
+  /* width: 50%;
+  height: 50%; */
+  object-fit: contain;
+  border-radius: 20px;
+
+}
+#about {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+.education {
+  font-display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+.degree {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  
+  box-shadow: 5px 10px 15px green;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#skills > img {
+  /* display: flex; */
+  height: 100px;
+  width: 100px;
+  gap: 20px;
+  border-radius: 10px;
+}
+#skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.heading{
+display: flex;
+justify-content: center;
+margin: 35px;
+}
+#contact{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+box-shadow: 5px 10px 15px green;
+border-radius: 15px;
+padding: 50px 0px;
+}
+footer {
+	text-align: center;
+	/* background-color: black; */
+	/* color: white; */
+	padding: 10px 0px;
+}
